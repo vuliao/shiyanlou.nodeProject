@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'bower', '-g' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'bower', null ]
+5 verbose cache add name=undefined spec="bower" args=["bower",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'bower',
+6 verbose parsed url   path: 'bower',
+6 verbose parsed url   href: 'bower' }
+7 silly lockFile 206e3ce5-bower bower
+8 verbose lock bower /home/shiyanlou/.npm/206e3ce5-bower.lock
+9 silly lockFile 206e3ce5-bower bower
+10 silly lockFile 206e3ce5-bower bower
+11 verbose addNamed [ 'bower', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1240aab1-bower bower@
+14 verbose lock bower@ /home/shiyanlou/.npm/1240aab1-bower.lock
+15 silly addNameRange { name: 'bower', range: '*', hasData: false }
+16 verbose url raw bower
+17 verbose url resolving [ 'http://registry.npm.taobao.org/', './bower' ]
+18 verbose url resolved http://registry.npm.taobao.org/bower
+19 info trying registry request attempt 1 at 10:56:56
+20 http GET http://registry.npm.taobao.org/bower
+21 http 200 http://registry.npm.taobao.org/bower
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'nginx/1.1.19',
+22 silly registry.get     date: 'Wed, 21 Oct 2015 02:56:56 GMT',
+22 silly registry.get     'content-type': 'application/json; charset=utf-8',
+22 silly registry.get     'content-length': '149298',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     etag: '"24732-Hywo+I61mKtYf9ofgIthKQ"',
+22 silly registry.get     'x-readtime': '125' } ]
+23 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+24 silly addNameRange versions [ 'bower',
+24 silly addNameRange   [ '1.6.3',
+24 silly addNameRange     '1.6.2',
+24 silly addNameRange     '1.5.3',
+24 silly addNameRange     '1.5.2',
+24 silly addNameRange     '1.5.1',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.4.1',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '1.3.12',
+24 silly addNameRange     '1.3.11',
+24 silly addNameRange     '1.3.10',
+24 silly addNameRange     '1.3.9',
+24 silly addNameRange     '1.3.8',
+24 silly addNameRange     '1.3.7',
+24 silly addNameRange     '1.3.6',
+24 silly addNameRange     '1.3.5',
+24 silly addNameRange     '1.3.4',
+24 silly addNameRange     '1.3.3',
+24 silly addNameRange     '1.3.2',
+24 silly addNameRange     '1.3.1',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.2.8',
+24 silly addNameRange     '1.2.7',
+24 silly addNameRange     '1.2.6',
+24 silly addNameRange     '1.2.5',
+24 silly addNameRange     '1.2.4',
+24 silly addNameRange     '1.2.3',
+24 silly addNameRange     '1.2.2',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.1.2',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '0.10.0',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.8.6',
+24 silly addNameRange     '0.8.5',
+24 silly addNameRange     '0.8.4',
+24 silly addNameRange     '0.8.3',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.6.8',
+24 silly addNameRange     '0.6.7',
+24 silly addNameRange     '0.6.6',
+24 silly addNameRange     '0.6.5',
+24 silly addNameRange     '0.6.4',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.0' ] ]
+25 verbose addNamed [ 'bower', '1.6.3' ]
+26 verbose addNamed [ '1.6.3', '1.6.3' ]
+27 silly lockFile cb21808c-bower-1-6-3 bower@1.6.3
+28 verbose lock bower@1.6.3 /home/shiyanlou/.npm/cb21808c-bower-1-6-3.lock
+29 silly lockFile e5630dcc-g-bower-download-bower-1-6-3-tgz http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz
+30 verbose lock http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz /home/shiyanlou/.npm/e5630dcc-g-bower-download-bower-1-6-3-tgz.lock
+31 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz',
+31 verbose addRemoteTarball   '70ab999e25dec5c078afcaf545a991f683dc1ea6' ]
+32 info retry fetch attempt 1 at 10:56:56
+33 verbose fetch to= /home/shiyanlou/tmp/npm-7052-hNmZ2oMy/1445396216925-0.43444673414342105/tmp.tgz
+34 http GET http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz
+35 error fetch failed http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz
+36 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+37 info retry fetch attempt 2 at 10:57:11
+38 verbose fetch to= /home/shiyanlou/tmp/npm-7052-hNmZ2oMy/1445396216925-0.43444673414342105/tmp.tgz
+39 http GET http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz
+40 error fetch failed http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz
+41 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+42 info retry fetch attempt 3 at 10:58:15
+43 verbose fetch to= /home/shiyanlou/tmp/npm-7052-hNmZ2oMy/1445396216925-0.43444673414342105/tmp.tgz
+44 http GET http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz
+45 error fetch failed http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz
+46 silly lockFile e5630dcc-g-bower-download-bower-1-6-3-tgz http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz
+47 silly lockFile e5630dcc-g-bower-download-bower-1-6-3-tgz http://registry.npm.taobao.org/bower/download/bower-1.6.3.tgz
+48 silly lockFile cb21808c-bower-1-6-3 bower@1.6.3
+49 silly lockFile cb21808c-bower-1-6-3 bower@1.6.3
+50 silly lockFile 1240aab1-bower bower@
+51 silly lockFile 1240aab1-bower bower@
+52 error network getaddrinfo ENOTFOUND
+52 error network This is most likely not a problem with npm itself
+52 error network and is related to network connectivity.
+52 error network In most cases you are behind a proxy or have bad network settings.
+52 error network
+52 error network If you are behind a proxy, please make sure that the
+52 error network 'proxy' config is set properly.  See: 'npm help config'
+53 error System Linux 3.13.0-30-generic
+54 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "bower" "-g"
+55 error cwd /home/shiyanlou/Code/shiyanlou_cs428/note/public
+56 error node -v v0.10.25
+57 error npm -v 1.3.10
+58 error syscall getaddrinfo
+59 error code ENOTFOUND
+60 error errno ENOTFOUND
+61 verbose exit [ 1, true ]
